@@ -1,0 +1,33 @@
+@import "../../styles/typography.scss";
+.doc-header {
+	background-color: #fff;
+	.input-label,
+	.label-value {
+		@include font-size(4);
+	}
+	.input-label {
+		@include font-weight();
+	}
+	.divider {
+		background: #cfcfcf;
+	}
+	.doc-template {
+		.MuiFormControl-root {
+			margin: 0;
+		}
+	}
+}
+
+.input-label {
+	margin-top: 60px;
+	margin-left: -15px;
+}
+
+.save-btn {
+	width: 84px;
+	height: 34px;
+	padding: 6px, 24px, 6px, 24px;
+	border-radius: 8px;
+	gap: 12px;
+	background-color: #2663EB;
+}

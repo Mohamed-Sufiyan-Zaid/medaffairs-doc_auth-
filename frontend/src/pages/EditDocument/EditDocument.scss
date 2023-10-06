@@ -1,0 +1,12 @@
+@import "../../styles/variables.scss";
+
+.edit-document-container {
+	height: calc(85vh - #{$headerMinHeight});
+	.document-header {
+		flex: 0 0 auto;
+	}
+	.document-editor-content {
+		flex: 1;
+		overflow-y: auto;
+	}
+}

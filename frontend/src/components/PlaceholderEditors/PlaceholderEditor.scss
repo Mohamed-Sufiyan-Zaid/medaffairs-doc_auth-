@@ -1,0 +1,39 @@
+.placeholder-editor {
+	.placeholder-editor-content {
+		.placeholder-editor-btn {
+			width: 101px;
+			height: 27px;
+			padding: 4px, 12px, 4px, 12px;
+			border-radius: 8px;
+			gap: 10px;
+			background: #ECF2FF;
+			color: #2663EB;
+			font-size: 14px;
+			margin-left: 15px;
+		}
+
+		.placeholder-add-btn{
+			width: 101px;
+			height: 27px;
+			padding: 4px, 12px, 4px, 12px;
+			border-radius: 8px;
+			gap: 10px;
+			background: #ECF2FF;
+			color: #2663EB;
+			font-size: 14px;
+			margin-left: 15px;	
+		}
+
+		.placeholder-delete-btn{
+			width: 101px;
+			height: 27px;
+			padding: 4px, 12px, 4px, 12px;
+			border-radius: 8px;
+			gap: 10px;
+			background: #FFECEC;
+			color: #EB2626	;
+			font-size: 14px;
+			margin-left: 15px;	
+		}
+	}
+}

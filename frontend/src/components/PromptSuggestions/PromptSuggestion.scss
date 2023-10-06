@@ -1,0 +1,37 @@
+@import "../../styles/typography.scss";
+@import "../../styles/variables.scss";
+
+.suggestions-overlay {
+	position: relative;
+	border: 0.1rem solid $textLightGray2;
+	border-radius: 0rem 0.2rem 0.2rem 0.2rem;
+	background: $secondary1;
+	box-shadow: 0rem 0rem 1rem 0rem rgba(0, 0, 0, 0.1);
+	h6 {
+		@include font-size(4);
+		color: $textSuggestion;
+		margin-bottom: 1rem;
+		padding: 0.6rem;
+	}
+	.combined-container {
+		max-height: 18.75rem; 
+		overflow-y: auto;
+		.accordion-container {
+			position: relative;
+			bottom: 0.625rem;
+			width: 100%;
+			overflow-y: auto;
+			z-index: 2;
+		}
+		.expanded-container {
+			border-bottom: 1px solid $background;
+		}
+	}
+	.input-wrapper {
+		&.sticky-textarea {
+			position: sticky;
+			bottom: 0;
+			width: 100%;
+		}
+	}
+}

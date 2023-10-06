@@ -1,0 +1,1 @@
+doc_error_message="Error while getting by name from document table"

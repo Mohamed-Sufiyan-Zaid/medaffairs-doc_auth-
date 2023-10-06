@@ -1,0 +1,46 @@
+@import "../../../styles/typography.scss";
+
+.MuiDialogTitle-root {
+	@include font-size(6);
+	@include font-weight("thin");
+	color: #000000;
+	text-align: left;
+	@media screen and (max-width: 1440px) {
+		font-size: 28px;
+	}
+
+}
+
+.MuiDialog-paper {
+	padding: 1.5rem;
+	// height: calc(100vh - 1px);
+    // top: 103px;
+    // outline: 0;
+    // position: relative;
+}
+
+.confirmation-box-divider {
+	background: #cfcfcf;
+	height: 1.5px;
+}
+
+.back-btn {
+	margin-left: 15px;
+	width: 1px;
+	display: flex;
+	align-items: stretch;
+	flex-direction: row;
+	border: none;
+}
+.back {
+	position: absolute;
+	display: flex;
+	align-items: stretch;
+	flex-direction: row;
+	border: none;
+	color: #4962c4;
+	font-size: 20px;
+	padding: 10px;
+	margin-top: 5px;
+	margin-left: 80px;
+}

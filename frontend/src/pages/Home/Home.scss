@@ -1,0 +1,17 @@
+@import "../../styles/typography.scss";
+@import "../../styles/variables.scss";
+
+.home-container {
+  padding: 1rem 1rem 1rem 1.5rem;
+  .heading {
+    @include font-size(5);
+    @include font-weight();
+  }
+  .cards-container {
+    overflow-x: scroll;
+  }
+  .table-error {
+    min-height: 100px;
+    color: $textLightGray2;
+  }
+}

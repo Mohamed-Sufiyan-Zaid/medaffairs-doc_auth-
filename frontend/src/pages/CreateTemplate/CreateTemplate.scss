@@ -1,0 +1,33 @@
+@import "../../styles/typography.scss";
+@import "../../styles/variables.scss";
+
+.createTemplateDialog {
+	.MuiDialog-paper {
+		max-width: 54.5625rem;
+	}
+	.project-name {
+		@include font-weight("bold");
+		margin-left: 1.5rem;
+		margin-top: 0.2rem;
+	}
+	.template-name {
+		@include font-weight("bold");
+	}
+	.createTemplateDialogTitle {
+		@include font-weight("thin");
+		@include font-size(6);
+		color: $primary;
+		text-align: center;
+		bottom: 1rem;
+	}
+	.createTemplateCustomTextField {
+		.MuiInputBase-root {
+			height: 2rem;
+			max-width: 100%;
+			border-radius: 4rem;
+		}
+		.MuiInputBase-input {
+			padding: 1.3rem;
+		}
+	}
+}

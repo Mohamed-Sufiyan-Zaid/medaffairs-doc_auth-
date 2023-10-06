@@ -1,0 +1,61 @@
+@import "../../styles/typography.scss";
+
+.rightnav {
+  
+    right: 0;
+    width: 400px;
+    height: 100%;
+    padding: 20px;
+    box-shadow: -2px 0 0 rgba(0, 0, 0, 0.2);
+  }
+  
+.tabs {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .tabs button {
+    border: none;
+    background: none;
+    color: #0e0e0e;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    transition: color 0.3s;
+    font-family: Noto Sans;
+    width: 100%;
+  }
+  
+  .tabs button.active {
+    color: #2663EB;
+    border-bottom: 2px solid #1C74BC; 
+  }
+  
+  .tabs button:not(.active) {
+    color: #737373;
+    border-bottom: 2px solid  #737373; 
+  }
+  
+  .tab-content{
+    color: #0e0e0e;
+    font-weight: bold;
+  
+  }
+  
+  .edit-send-button {
+    width: 138px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 23.981px;
+    background: #2663EB;
+    cursor: pointer;
+    color: #FFF;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 25%;
+  }

@@ -1,0 +1,7 @@
+@import "../../styles/typography.scss";
+
+.template-container {
+	p {
+		@include font-weight("bold");
+	}
+}

@@ -1,0 +1,58 @@
+.message{
+    color: #000;
+    font-size: 1.125rem;
+    font-weight: 400;
+    background: transparent;
+    line-height: 161.182%; /* 1.81331rem */
+    max-width: 56rem;
+}
+.default-message{
+        padding: 1.25rem 2rem 1.5rem 1.5rem;
+}
+.reply-message {
+    background: #F5F5F5;
+}
+.message-tile{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.text-message{
+    margin-left: 1.5rem;
+    flex-basis: 100%;
+    /* TODO: Discuss overflow before setting the below */
+    /* max-width: 56rem;
+    max-height: 15rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis; */
+}
+
+.reply-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.citations {
+    color: #2B50BA;
+font-size: 1rem;
+font-weight: 600;
+line-height: 161.182%; /* 1.61181rem */
+margin-right: 1rem;
+}
+.citations-content{
+    border-radius: 0.4rem;
+background: rgba(43, 80, 186, 0.21);
+display: flex;
+    align-items: center;
+    padding: 0 0.5rem;
+}
+
+.citations-content>p{
+    color: #2B50BA;
+font-size: 0.875rem;
+font-weight: 600;
+line-height: 161.182%; /* 1.41031rem */
+}

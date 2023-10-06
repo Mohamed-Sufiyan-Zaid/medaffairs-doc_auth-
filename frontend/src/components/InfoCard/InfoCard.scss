@@ -1,0 +1,22 @@
+@import "../../styles/typography.scss";
+
+.info-card {
+	background: #e6f4ff;
+	padding: 1rem 0 2rem 1rem;
+	width: 15rem;
+	height: 9.75rem;
+	.info-card-header {
+		p {
+			@include font-size(4);
+			@include font-weight();
+			color: #007ac0;
+			margin-bottom: 1rem;
+		}
+	}
+	.info-card-body {
+		p {
+			color: #1d1d1d;
+			@include font-size(9);
+		}
+	}
+}
